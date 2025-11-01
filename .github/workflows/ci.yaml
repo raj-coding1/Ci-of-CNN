@@ -4,7 +4,7 @@ on : push
 
 jobs : 
   first_job : 
-    runs-on : macios-latest
+    runs-on : macos-latest
     steps : 
       - name : checkout-code
         uses : actions/checkout@v4
