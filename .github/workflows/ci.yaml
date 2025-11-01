@@ -16,4 +16,4 @@ jobs :
         run : pip install tensorflow
       
       - name : run the file
-        run : python src/basic.py
+        run : python notebook/basic.ipynb
